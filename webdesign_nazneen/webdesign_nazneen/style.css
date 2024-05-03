@@ -1,0 +1,784 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background: rgb(125, 221, 34);
+}
+.sticky-nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color:  rgb(125, 221, 34); /* Adjust as needed */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px  rgb(125, 221, 34); /* Optional: Add a shadow for visual separation */
+}
+.sticky-nav {
+    /* Previous CSS properties... */
+    transition: background-color 0.3s ease; /* Add transition effect for background color */
+}
+
+.logo {
+    margin-left: 0px;
+
+}
+
+
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 4px 100px;
+    line-height: 80px;
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+
+
+nav a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+#body.about .header {
+	background: url(images/images.jpg) no-repeat center top #7fe5f3;
+	margin: 0;
+	min-height: 1000px;
+	padding: 0;
+	width: 100%;
+}
+#body.about .header div, #body .header div {
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 65px 0 40px;
+}
+#body.about .header div h1, #body .header div h1 {
+	color: #131111;
+	display: block;
+	font-family: audiowide-regular-webfont;
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 36px;
+	margin: 0 auto 87px;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 940px;
+}
+#body.about .header div h2 {
+	color: #160303;
+	display: block;
+	font-family: audiowide-regular-webfont;
+	font-size: 32px;
+	font-weight: normal;
+	line-height: 32px;
+	margin: 0 auto 87px;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 820px;
+}
+#body.about .header div p {
+    color: #140707;
+    display: block;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;  
+    text-align: center;
+    width: 820px;
+	margin: 0 auto 87px;
+	padding: 0;
+	padding-bottom:20px;
+}
+
+#body.about .header div p a {
+	color: #180d0d;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+
+#body.about .header div p.last-paragraph {
+    padding-bottom: 120px; /* Adjust the bottom padding as needed */
+}
+
+#body.about .header div p a:hover {
+	color: #a3a3a3;
+}
+#body.about .body {
+	background-color: #620031;
+	margin: 0;
+	min-height: 253px;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+#body.about .body div {
+	margin: 0 auto;
+	max-width: 940px;
+	overflow: hidden;
+	padding: 36px 10px 35px;
+}
+#body.about .body div h2 {
+	color: #A3A3A3;
+	float: left;
+	font-family: audiowide-regular-webfont;
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 23px;
+	margin: 18px 0 26px;
+	padding: 0;
+	text-align: left;
+	text-transform: uppercase;
+	width: 620px;
+}
+#body.about .body div p {
+	color: #ffffff;
+	display: block;
+	float: left;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	width: 620px;
+}
+#body.about .body div p a {
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+#body.about .body div p a:hover {
+	color: #a3a3a3;
+}
+#body.about .body div img {
+	display: block;
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#body.about .footer {
+	background-color: #000000;
+	margin: 0;
+	min-height: 366px;
+	padding: 0;
+	width: 100%;
+}
+#body.about .footer div {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 79px 0 0 10px;
+	width: 950px;
+}
+#body.about .footer div h2 {
+	color: #A3A3A3;
+	float: right;
+	font-family: audiowide-regular-webfont;
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 23px;
+	margin: 34px 0 24px;
+	padding: 10px;
+	text-align: left;
+	text-transform: uppercase;
+	width: 557px;
+}
+#body.about .footer div p {
+	color: #ffffff;
+	display: block;
+	float: right;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	width: 557px;
+}
+#body.about .footer div p a {
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0 auto;
+	padding: 0;
+	text-decoration: underline;
+}
+#body.about .footer div p a:hover {
+	color: #a3a3a3;
+}
+#body.about .footer div img {
+	float: left;
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+*{box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+
+
+a.active, a:hover{
+    border: 1px solid white;
+    transition: .5s;
+}
+
+body.div .img{
+    display: block;
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+.index {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+    background-image: url('images/AI_wall.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0 auto;
+    padding: 140px 30px 40px;
+    line-height: 36px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.1); /* 10% transparent white */
+}
+
+
+.indextwo {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	background-color: rgba(125, 221, 34, 0.1);
+	color: #160a10;
+	text-align: justify;
+	
+	margin: 0 auto;
+  padding: 15px 0px 40px;
+  line-height: 36px;
+  display: block;
+}
+
+.indextwo p {
+    margin-left: 20px;
+    margin-right: 20px;
+	margin-top: 20px;
+}
+
+.indextwo h1,h2, h3, ul, li, a {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.projects {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: rgba(125, 221, 34, 0.1);
+    color: #160a10;
+    text-align: justify; /* Justify the text */
+    margin: 0 auto;
+    padding: 65px 30px 40px; /* Add 10 pixels of padding on both sides */
+    line-height: 36px;
+    display: block;
+}
+
+
+.index_pro {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+    background-image: url('images/AI_wall.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0 auto;
+    padding: 70px 10px 40px;
+    line-height: 36px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.1); /* 10% transparent white */
+}
+
+
+/*----------------------------------------body-styles---------------------------------------*/
+.about p {
+    text-align: justify !important;
+	    padding-left: 20px !important;
+		padding-right: 20px!important;
+}
+
+
+
+.index_about {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+    background-image: url('images/AI_wall.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0 auto;
+    padding: 70px 10px 40px;
+    line-height: 36px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.1); /* 10% transparent white */
+}
+
+
+
+#body.about .header {
+    background: url(images/images.jpg) no-repeat Center top #7fe5f3;
+    margin: 0;
+    min-height: 1000px;
+    padding: 0;
+    width: 100%;
+}
+
+
+#body.about .header div, #body .header div {
+	margin: 10px auto;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 180px 0 40px;
+}
+#body.about .header div h1, #body .header div h1 {
+	color: #131111;
+	display: block;
+	font-family: audiowide-regular-webfont;
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 36px;
+	margin: 0 auto 87px;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 940px;
+}
+#body.about .header div h2 {
+	color: #160303;
+	display: block;
+	font-family: audiowide-regular-webfont;
+	font-size: 32px;
+	font-weight: normal;
+	line-height: 32px;
+	margin: 0 auto 24px;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 820px;
+}
+#body.about .header div p {
+    color: #140707;
+    display: block;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0 auto;  
+    text-align: center;
+   
+	max-width: 100%;
+ 
+}
+
+#body.about .header div p a {
+	color: #180d0d;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+#body.about .header div p a:hover {
+	color: #a3a3a3;
+}
+#body.about .body {
+	background-color: #620031;
+	margin: 0;
+	min-height: 253px;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+#body.about .body div {
+	margin: 0 auto;
+	max-width: 940px;
+	overflow: hidden;
+	padding: 36px 10px 35px;
+}
+#body.about .body div h2 {
+	color: #A3A3A3;
+	float: left;
+	font-family: audiowide-regular-webfont;
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 23px;
+	margin: 18px 0 26px;
+	padding: 0;
+	text-align: left;
+	text-transform: uppercase;
+	width: 620px;
+}
+#body.about .body div p {
+	color: #ffffff;
+	display: block;
+	float: left;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	width: 620px;
+}
+#body.about .body div p a {
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+#body.about .body div p a:hover {
+	color: #a3a3a3;
+}
+#body.about .body div img {
+	display: block;
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#body.about .footer {
+	background-color: #000000;
+	margin: 0;
+	min-height: 366px;
+	padding: 0;
+	width: 100%;
+}
+#body.about .footer div {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 79px 0 0 10px;
+	width: 950px;
+}
+#body.about .footer div h2 {
+	color: #A3A3A3;
+	float: right;
+	font-family: audiowide-regular-webfont;
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 23px;
+	margin: 34px 0 24px;
+	padding: 0;
+	text-align: left;
+	text-transform: uppercase;
+	width: 557px;
+}
+#body.about .footer div p {
+	color: #ffffff;
+	display: block;
+	float: right;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	width: 557px;
+}
+#body.about .footer div p a {
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0 auto;
+	padding: 0;
+	text-decoration: underline;
+}
+#body.about .footer div p a:hover {
+	color: #a3a3a3;
+}
+#body.about .footer div img {
+	float: left;
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+*{box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+
+body {
+    font-family: Helvetica, sans-serif;
+
+    text-align: center;
+    font-size: 50;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+   
+    text-align: center;
+    font-size: 50;
+}
+
+/* Styling the area of the slides */
+#slideshow {
+    overflow: hidden;
+    height: 500px; /* Set height to 700px */
+    width: 1000px; /* Set width to 1000px */
+   
+	margin-top: 0 10px;
+}
+
+/* Style each of the slides with a fixed width and height */
+.slide {
+    float: left;
+    height: 500px; /* Set height to 700px */
+    width: 1000px; /* Set width to 1000px */
+    margin-right: 20px; /* Add a 20px gap between slides */
+    background-size: cover;
+}
+
+/* Remove the margin-right from the last slide */
+.slide:last-child {
+    margin-right: 0;
+}
+
+/* Add animation to the slides */
+.slide-wrapper {
+    /* Calculate the total width on the basis of the number of slides */
+    width: calc(1020px * 6); /* Assuming you have 6 slides (1000px + 20px gap) */
+    /* Specify the animation with the duration and speed */
+    animation: slide 20s ease infinite; /* Increase the duration to 20s to allow all slides to show */
+}
+
+/* Define the animation for the slideshow */
+@keyframes slide {
+    /* Calculate the margin-left for each of the slides */
+    8.333% {
+        margin-left: 0;
+    }
+    16.666% {
+        margin-left: calc(-1020px * 1);
+    }
+    25% {
+        margin-left: calc(-1020px * 2);
+    }
+    33.333% {
+        margin-left: calc(-1020px * 3);
+    }
+    41.666% {
+        margin-left: calc(-1020px * 4);
+    }
+    50% {
+        margin-left: calc(-1020px * 5);
+    }
+}
+
+
+
+.footer img {
+    width: 30px; /* Adjust this value to change the size */
+    height: auto; /* This maintains the aspect ratio */
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    background-size: cover;
+    background-image: url('images/aii.jpg');
+}
+.footer h1,
+.footer p {
+    color: white;
+}
+
+.footer_contact {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    background-size: cover;
+    background-image: url('images/aii.jpg');
+}
+
+.footer_contact img {
+    width: 30px; /* Adjust this value to change the size */
+}
+
+.footer_contact h1,
+.footer_contact p {
+    color: white;
+}
+/* Center the form both horizontally and vertically on the page */
+form {
+    max-width: 600px; /* Adjust the width as needed */
+    margin: auto; /* Set both top and bottom margins to 'auto' */
+    padding: 20px;
+    background-color: rgba(242, 242, 242, 0.8); /* Transparent background color */
+    border: 2px solid #ddd;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    position: absolute; /* Position the form absolutely */
+    top: 50%; /* Place the top edge of the element at the middle of the parent */
+    left: 50%; /* Place the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%); /* Translate back by 50% of the element's own width and height */
+}
+
+
+/* Style the title */
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style the half container */
+.half {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style the input fields */
+.item {
+    flex: 1;
+    margin-right: 10px;
+	font-weight: bold;
+}
+
+/* Style the input labels */
+.item label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style the text area */
+.action label {
+    font-weight: bold;
+
+}
+
+/* Style the text area and buttons */
+.action textarea, .action input[type="submit"], .action input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;   
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+.action input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Style the reset button */
+.action input[type="reset"] {
+    background-color: #ddd;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Apply hover effect to buttons */
+.action input[type="submit"]:hover, .action input[type="reset"]:hover {
+    background-color: #0056b3;
+}
+
+/* Add some spacing */
+.action {
+    margin-top: 20px;
+}
+
+
+.index {
+    padding: 0 30px important!; /* Add 30 pixels of padding on both the left and right sides */
+}
+
+.index p {
+    text-align: Center; /* Justify the text */
+}
+.background-wrapper {
+    background-image: url('images/Agricultural robot.png');
+    background-size: cover;
+    background-position: center;
+}
+.section-wrapper {
+    background-image: url('images/tomato.jpg');
+    background-size: cover;
+    background-position: center;
+	margin: 0;
+
+	padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+	
+	
+}

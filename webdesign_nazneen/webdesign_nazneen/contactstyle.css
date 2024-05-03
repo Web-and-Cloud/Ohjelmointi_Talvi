@@ -1,0 +1,60 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: hwb(0 3% 94%);
+}
+
+body {
+    background: url(images/aisd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+form {
+    background: rgba(27,31,34,0,80);
+    width: 540px;
+    margin: 100px auto;
+    max-width: 97%;
+    border-radius: 4px;
+    padding: 55px 30px;
+}
+
+form.title h2 {
+    letter-spacing: 6px;
+    border-bottom: 1px solid white;
+    color: #f5eded;
+    display: inline-block;
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+}
+
+form.half {
+ display: flex;
+    justify-content: space-between;
+}
+
+form.half .item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    width: 48%;
+}
+form label {
+    display: block;
+    font-size: 13px;
+    letter-spacing: 3.5px;
+    margin-bottom: 16px;
+
+}
+
+form.half .item input {
+    border-radius: 4px;
+    border: 1px solid white;
+    outline: 0;
+    padding: 16px;
+}
