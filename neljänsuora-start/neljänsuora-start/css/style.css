@@ -1,0 +1,27 @@
+body{
+    width: 450px;
+    margin: auto;
+}
+
+.grid {
+    display:flex;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 360px;
+    border: 1px solid black;
+}
+
+.grid div{
+    width: 60px;
+    height: 60px;
+}
+
+.player-one{
+    background-color: red;
+    border-radius: 30px;
+}
+
+.player-ywo{
+    background-color: blue;
+    border-radius: 30px;
+}
