@@ -1,0 +1,33 @@
+body{
+    width: 450px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    width: 450px;
+}
+
+.column{
+    flex: 50%;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 450px;
+   
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.mole{
+    background-image: url("../img/mole.jpg");
+    background-size: cover;
+}
