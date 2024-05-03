@@ -1,0 +1,15 @@
+body{
+    width: 400px;
+    margin: auto;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 300px;
+}
+
+img {
+    cursor: pointer;
+}
