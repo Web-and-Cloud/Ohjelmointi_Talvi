@@ -1,0 +1,46 @@
+/* ## Colors
+
+### Primary
+
+Bright Red: hsl(12, 88%, 59%)
+Dark Blue: hsl(228, 39%, 23%) 
+
+### Neutral
+
+Dark Grayish Blue: hsl(227, 12%, 61%)
+Very Dark Blue: hsl(233, 12%, 13%)
+Very Pale Red: hsl(13, 100%, 96%)
+Vary Light Gray: hsl(0, 0%, 98%) */
+
+:root {
+    --primary-color:hsl(12, 88%, 59%)
+    Dark Blue: hsl(228, 39%, 23%) 
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    .hover-effect{
+      background-color: rgb(239, 106, 106);
+      
+    }
+
+    .nav-link:hover{
+      background-color: rgb(243, 166, 122);
+    }
+
+    .btn-custom{
+      background-color: rgb(237, 60, 60);
+    }
+    .btn-custom:hover{
+      background-color: rgb(243, 101, 101);
+    }
+
+    .number{
+      background-color: rgb(243, 69, 47);
+    }
+
+    .nmg{
+        margin-top: -25rem;
+    }
